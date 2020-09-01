@@ -25,9 +25,10 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import LoginScreen from './screens/LoginScreen';
 import HomeScreen from './screens/HomeScreen';
+import CopilotScreen from './screens/CopilotScreen';
 
 const App: () => React$Node = () => {
-  return <HomeScreen />;
+  return <CopilotScreen />;
 };
 
 export default App;
